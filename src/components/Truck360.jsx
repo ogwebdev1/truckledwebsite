@@ -7,15 +7,17 @@ export default function Truck360() {
     
     <section className={style.container}>
     <h1>Truck LED</h1>
-    <div className={style.contain360}>
+    <div className={style.contain360main}>
+      <div className='test'>
         <ThreeSixty
             amount={19}
             imagePath="img360/"
             fileName="truck{index}.jpeg"
             spinReverse
             autoplay={19}
-            loop={10}
+            loop={1}
         />
+        </div>
     </div>
     </section>
         
